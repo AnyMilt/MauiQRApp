@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiQRApp.Views.LoginPage"
+             BackgroundColor="#F5F7FA"
+             Title="Registro de Docente">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="25">
+
+            <Frame HasShadow="True" CornerRadius="20" Padding="25" BackgroundColor="White">
+                <VerticalStackLayout Spacing="20">
+                    <Label Text="Registro de Docente"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#1E3A8A"/>
+
+                    <Entry x:Name="txtIdDocente"
+                           Placeholder="ID del Docente"
+                           FontSize="16"
+                           ClearButtonVisibility="WhileEditing"/>
+
+                    <Entry x:Name="txtClave"
+                           Placeholder="Clave de autorización"
+                           IsPassword="True"
+                           FontSize="16"
+                           ClearButtonVisibility="WhileEditing"/>
+
+                    <Button Text="📷 Escanear QR"
+                            BackgroundColor="#3B82F6"
+                            TextColor="White"
+                            CornerRadius="12"
+                            HeightRequest="50"
+                            Clicked="OnScanClicked"/>
+
+                    <Button Text="🗳️ Registrar Docente"
+                            BackgroundColor="#2563EB"
+                            TextColor="White"
+                            CornerRadius="12"
+                            HeightRequest="50"
+                            Clicked="OnRegistrarClicked"/>
+
+                    <Button Text="🔐 Registrar Nueva Clave"
+                            BackgroundColor="#6B7280"
+                            TextColor="White"
+                            CornerRadius="12"
+                            HeightRequest="50"
+                            Clicked="OnRegistrarClaveClicked"/>
+
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

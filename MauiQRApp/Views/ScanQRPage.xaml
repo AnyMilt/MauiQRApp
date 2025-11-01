@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls"
+    x:Class="MauiQRApp.Views.ScanQRPage"
+    Title="Escanear ID Docente"
+    BackgroundColor="Black">
+
+    <Grid>
+        <!-- Cámara -->
+        <zxing:CameraBarcodeReaderView 
+            x:Name="cameraView"
+            BarcodesDetected="CameraView_BarcodesDetected"
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill"
+            AutomationId="CameraQR" />
+
+        <!-- Overlay con guía visual -->
+        <Grid BackgroundColor="#80000000">
+
+            <!-- Marco de escaneo -->
+            <Border
+                x:Name="ScanFrame"
+                WidthRequest="250"
+                HeightRequest="250"
+                Stroke="#22C55E"
+                StrokeThickness="3"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                StrokeShape="RoundRectangle 20" />
+
+            <!-- Línea de escaneo -->
+            <BoxView
+                x:Name="ScanLine"
+                HeightRequest="3"
+                WidthRequest="230"
+                Color="#22C55E"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Opacity="0.9"
+                TranslationY="-100" />
+
+            <!-- Texto guía -->
+            <Label 
+                Text="Apunte la cámara hacia el código QR del docente"
+                TextColor="#E2E8F0"
+                FontAttributes="Bold"
+                FontSize="16"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="0,0,0,40" />
+
+            <!-- Botón de linterna -->
+            <Button
+                Text="🔦"
+                BackgroundColor="#1E3A8A"
+                TextColor="White"
+                WidthRequest="60"
+                HeightRequest="60"
+                CornerRadius="30"
+                FontSize="22"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="0,0,0,100"
+                Clicked="OnToggleTorchClicked" />
+        </Grid>
+    </Grid>
+</ContentPage>

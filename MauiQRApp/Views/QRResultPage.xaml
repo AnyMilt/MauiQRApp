@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI.Controls"
+             x:Class="MauiQRApp.Views.QRResultPage"
+             BackgroundColor="#F5F7FA"
+             Title="Código QR Generado">
+
+    <VerticalStackLayout Padding="30" Spacing="25" HorizontalOptions="Center" VerticalOptions="Center">
+        <Frame HasShadow="True" CornerRadius="20" Padding="20" BackgroundColor="White">
+            <VerticalStackLayout Spacing="20" HorizontalOptions="Center">
+                <Label Text="Código QR Generado"
+                       FontAttributes="Bold"
+                       FontSize="20"
+                       TextColor="#1E3A8A"
+                       HorizontalOptions="Center"/>
+
+                <!-- Generador QR multiplataforma -->
+                <zxing:BarcodeGeneratorView x:Name="qrView"                                           
+                                            HeightRequest="250"
+                                            WidthRequest="250"
+                                            HorizontalOptions="Center"/>
+
+                <Label Text="Escanee este código para registrar su asistencia."
+                       FontSize="14"
+                       HorizontalOptions="Center"
+                       TextColor="#4B5563"/>
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiQRApp.Views.MainPage"
+             BackgroundColor="#F5F7FA"
+             Title="Registro de Asistencia">
+
+    <VerticalStackLayout Padding="30" Spacing="25">
+        <Frame HasShadow="True" CornerRadius="20" Padding="25" BackgroundColor="White">
+            <VerticalStackLayout Spacing="20">
+                <Label Text="Panel de Asistencia"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="#1E3A8A"/>
+
+                <Button Text="🟢 Registrar Entrada"
+                        BackgroundColor="#22C55E"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="50"
+                        Clicked="OnEntradaClicked"/>
+
+                <Button Text="🔴 Registrar Salida"
+                        BackgroundColor="#EF4444"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="50"
+                        Clicked="OnSalidaClicked"/>
+
+                <Button Text="🧑‍🏫 Registrar / Cambiar Docente"
+                        BackgroundColor="#2563EB"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="50"
+                        Clicked="OnRegistrarDocenteClicked"/>
+
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

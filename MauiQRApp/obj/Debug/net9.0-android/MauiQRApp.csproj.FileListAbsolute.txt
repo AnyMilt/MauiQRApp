@@ -1001,3 +1001,4 @@ C:\Users\SoloCodigo\source\repos\MauiQRApp\MauiQRApp\obj\Debug\net9.0-android\st
 C:\Users\SoloCodigo\source\repos\MauiQRApp\MauiQRApp\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\SoloCodigo\source\repos\MauiQRApp\MauiQRApp\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\SoloCodigo\source\repos\MauiQRApp\MauiQRApp\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\SoloCodigo\source\repos\MauiQRApp\MauiQRApp\obj\Debug\net9.0-android\MauiQRApp.sourcelink.json

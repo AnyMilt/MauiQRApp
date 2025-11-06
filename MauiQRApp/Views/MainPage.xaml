@@ -6,8 +6,15 @@
              Title="Registro de Asistencia">
 
     <VerticalStackLayout Padding="30" Spacing="25">
-        <Frame HasShadow="True" CornerRadius="20" Padding="25" BackgroundColor="White">
-            <VerticalStackLayout Spacing="20">
+
+        <!-- Reemplazo moderno de Frame -->
+        <Border
+            BackgroundColor="White"
+            StrokeThickness="0"
+            StrokeShape="RoundRectangle 20"
+            Shadow="5,5,10,0,Black">
+
+            <VerticalStackLayout Padding="25" Spacing="20">
                 <Label Text="Panel de Asistencia"
                        FontSize="22"
                        FontAttributes="Bold"
@@ -28,14 +35,21 @@
                         HeightRequest="50"
                         Clicked="OnSalidaClicked"/>
 
+                <Button Text="💻 Enviar Asistencia Virtual"
+                        BackgroundColor="#3B82F6"
+                        TextColor="White"
+                        CornerRadius="12"
+                        HeightRequest="50"
+                        Clicked="OnAsistenciaVirtualClicked"/>
+
                 <Button Text="🧑‍🏫 Registrar / Cambiar Docente"
                         BackgroundColor="#2563EB"
                         TextColor="White"
                         CornerRadius="12"
                         HeightRequest="50"
                         Clicked="OnRegistrarDocenteClicked"/>
-
             </VerticalStackLayout>
-        </Frame>
+        </Border>
+
     </VerticalStackLayout>
 </ContentPage>

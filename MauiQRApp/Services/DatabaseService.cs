@@ -1,5 +1,5 @@
 using SQLite;
-using MauiQRApp.Models;
+using MauiQRApp.Properties.Models;
 
 namespace MauiQRApp.Services
 {

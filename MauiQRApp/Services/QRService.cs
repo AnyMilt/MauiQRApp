@@ -1,3 +1,5 @@
+
+
 using QRCoder;
 using Microsoft.Maui.Controls;
 using System.Text.Json;

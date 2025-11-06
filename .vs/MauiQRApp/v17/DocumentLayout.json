@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\SoloCodigo\\source\\repos\\MauiQRApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8681F617-90A0-45BA-BD94-7D1D34206CC6}|MauiQRApp\\MauiQRApp.csproj|c:\\users\\solocodigo\\source\\repos\\mauiqrapp\\mauiqrapp\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8681F617-90A0-45BA-BD94-7D1D34206CC6}|MauiQRApp\\MauiQRApp.csproj|solutionrelative:mauiqrapp\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8681F617-90A0-45BA-BD94-7D1D34206CC6}|MauiQRApp\\MauiQRApp.csproj|c:\\users\\solocodigo\\source\\repos\\mauiqrapp\\mauiqrapp\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8681F617-90A0-45BA-BD94-7D1D34206CC6}|MauiQRApp\\MauiQRApp.csproj|solutionrelative:mauiqrapp\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -47,27 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SoloCodigo\\source\\repos\\MauiQRApp\\MauiQRApp\\Views\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MauiQRApp\\Views\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\SoloCodigo\\source\\repos\\MauiQRApp\\MauiQRApp\\Views\\MainPage.xaml.cs",
-              "RelativeToolTip": "MauiQRApp\\Views\\MainPage.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwC4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:50:08.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\SoloCodigo\\source\\repos\\MauiQRApp\\MauiQRApp\\Views\\MainPage.xaml",
               "RelativeDocumentMoniker": "MauiQRApp\\Views\\MainPage.xaml",
               "ToolTip": "C:\\Users\\SoloCodigo\\source\\repos\\MauiQRApp\\MauiQRApp\\Views\\MainPage.xaml",
               "RelativeToolTip": "MauiQRApp\\Views\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-03T14:50:00.014Z",
+              "WhenOpened": "2025-11-04T14:28:36.739Z",
               "EditorCaption": ""
             }
           ]

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MauiQRApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c3c28b67d23ece3d9cf8ab417bd433051b6221f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+8cf9236819f85ac1deff46384eb6c212e7606568")]
 [assembly: System.Reflection.AssemblyProductAttribute("MauiQRApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MauiQRApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

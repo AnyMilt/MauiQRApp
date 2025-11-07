@@ -6,8 +6,23 @@
              BackgroundColor="#F5F7FA"
              Title="Código QR Generado">
 
-    <VerticalStackLayout Padding="30" Spacing="25" HorizontalOptions="Center" VerticalOptions="Center">
-        <Frame HasShadow="True" CornerRadius="20" Padding="20" BackgroundColor="White">
+    <VerticalStackLayout Padding="30" Spacing="25" 
+                         HorizontalOptions="Center" 
+                         VerticalOptions="Center">
+
+        <!-- Frame reemplazado por Border -->
+        <Border StrokeShape="RoundRectangle 20"
+                BackgroundColor="White"
+                Padding="20"
+                WidthRequest="300">
+
+            <Border.Shadow>
+                <Shadow Brush="Black"
+                        Opacity="0.25"
+                        Radius="10"
+                        Offset="5,5"/>
+            </Border.Shadow>
+
             <VerticalStackLayout Spacing="20" HorizontalOptions="Center">
                 <Label Text="Código QR Generado"
                        FontAttributes="Bold"
@@ -26,6 +41,7 @@
                        HorizontalOptions="Center"
                        TextColor="#4B5563"/>
             </VerticalStackLayout>
-        </Frame>
+
+        </Border>
     </VerticalStackLayout>
 </ContentPage>

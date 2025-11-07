@@ -8,7 +8,14 @@
     <ScrollView>
         <VerticalStackLayout Padding="30" Spacing="25">
 
-            <Frame HasShadow="True" CornerRadius="20" Padding="25" BackgroundColor="White">
+            <Border StrokeShape="RoundRectangle 20"
+                    BackgroundColor="White"
+                    Padding="25">
+
+                <Border.Shadow>
+                    <Shadow Brush="Black" Opacity="0.25" Radius="10" Offset="5,5"/>
+                </Border.Shadow>
+
                 <VerticalStackLayout Spacing="20">
                     <Label Text="Registro de Docente"
                            FontSize="22"
@@ -49,7 +56,8 @@
                             Clicked="OnRegistrarClaveClicked"/>
 
                 </VerticalStackLayout>
-            </Frame>
+
+            </Border>
 
         </VerticalStackLayout>
     </ScrollView>

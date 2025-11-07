@@ -6,6 +6,6 @@ namespace MauiQRApp.Properties.Models
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
-        public string Codigo { get; set; }
+        public string? Codigo { get; set; }
     }
 }

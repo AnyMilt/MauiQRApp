@@ -7,12 +7,18 @@
 
     <VerticalStackLayout Padding="30" Spacing="25">
 
-        <!-- Reemplazo moderno de Frame -->
+        <!-- Border con sombra moderna -->
         <Border
             BackgroundColor="White"
             StrokeThickness="0"
-            StrokeShape="RoundRectangle 20"
-            Shadow="5,5,10,0,Black">
+            StrokeShape="RoundRectangle 20">
+
+            <Border.Shadow>
+                <Shadow Brush="Black"
+                        Offset="5,5"
+                        Radius="10"
+                        Opacity="0.25"/>
+            </Border.Shadow>
 
             <VerticalStackLayout Padding="25" Spacing="20">
                 <Label Text="Panel de Asistencia"

@@ -14,7 +14,7 @@ public partial class RegistrarClavePage : ContentPage
 
     private async void OnGuardarClicked(object sender, EventArgs e)
     {
-        string clave = txtClave.Text?.Trim();
+        string clave = txtClave.Text?.Trim() ?? string.Empty;
 
         if (string.IsNullOrEmpty(clave))
         {
